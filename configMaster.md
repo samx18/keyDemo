@@ -4,7 +4,7 @@
 
 	sh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-## Add the private key to your sssh agent
+## Add the private key to your ssh agent
 
 	ssh-add -K ~/.ssh/id_rsa
 
@@ -16,4 +16,4 @@
 
 	xclip -sel clip < ~/.ssh/id_rsa.pub
 
-## Setup your git repo as SSH instead of https 
+## Setup your git repo as SSH instead of HTTPS
